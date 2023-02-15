@@ -1,10 +1,11 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+
     
 </head>
 <body>
@@ -24,17 +25,23 @@
                     <h3>Quer saber mais?</h3>
                     <div>
                         <label for="nome">Nome:</label>
-                        <input type="text" id="nome" placeholder="Nome Completo">
-                    </div>
-                    <div>
-                        <label for="fone">Telefone:</label>
-                        <input type="text" id="fone" placeholder="(88)98888-8888" />
+                        <input type="text" id="nome" size="40" placeholder="Nome Completo">
                     </div>
                     <div>
                         <label for="email">E-mail:</label>
-                        <input type="text" id="email" placeholder=".......................@gmail.com"/>
+                        <input type="text" id="email" size="40" placeholder="@"/>
                     </div>
-                   
+                    <div>
+                        <label for="fone">Telefone/WhatsApp:</label>
+                        <input id="telNo"
+                        name="telNo"
+                        type="tel"
+                        minlength="9"
+                        maxlength="11" placeholder="(88)98888-8888"/>
+                    </div><br>
+                    <div>
+                        <input type="submit" id="enviaForm" value="Enviar">
+                    </div>
                     </div> <br>
                      
                 </form>
