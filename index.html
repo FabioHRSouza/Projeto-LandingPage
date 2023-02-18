@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 
     
 </head>
@@ -13,25 +14,37 @@
         
     </header>
     <main>
+       
         <section class="principal">
-            <div>
+            <div id="chamada">
                 <h1>A cada minuto milhares de pessoas no mundo, utilizam a internet para procurar profissionais como você! </h1>
             </div>
-            <div>
+            <div id="alerta">
                 <h2> Não perca a chance de ser encontrado e monetizar ainda mais a sua Profissão!</h2>
             </div>
+            <div class="container">
+                <ul>
+                    <h3 class="h3Central">Conheça a Booky.today</h3>
+                    <li>Site Responsivo + APP + Domínio</li>
+                    <li>Sistema de Agendamento Presencial e Online</li>
+                    <li>Blog Otimizado(SEO) + Loja Virtual E-Comerce</li><br>
+                    <h3 class="h3Central">A Ferramenta Completa e Adaptável <br>
+                        ao seu dia-a-dia Profissional</h3>
+                </ul>
+            </div>
             <div class="form">
+                <h3>Quer saber mais?</h3>
                 <form action="post">
-                    <h3>Quer saber mais?</h3>
-                    <div>
+                    
+                    <div class="formNome">
                         <label for="nome">Nome:</label>
                         <input type="text" id="nome" size="40" placeholder="Nome Completo">
                     </div>
-                    <div>
+                    <div class="formEmail">
                         <label for="email">E-mail:</label>
                         <input type="text" id="email" size="40" placeholder="@"/>
                     </div>
-                    <div>
+                    <div class="formTel">
                         <label for="fone">Telefone/WhatsApp:</label>
                         <input id="telNo"
                         name="telNo"
@@ -39,7 +52,7 @@
                         minlength="9"
                         maxlength="11" placeholder="(88)98888-8888"/>
                     </div><br>
-                    <div>
+                    <div class="enviaForm">
                         <input type="submit" id="enviaForm" value="Enviar">
                     </div>
                     </div> <br>
