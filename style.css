@@ -58,7 +58,7 @@ form{
 }
 
 
-form .enviaForm {
+form .button {
     padding-left: 50px;
     
 }
@@ -76,7 +76,7 @@ form .enviaForm {
     font-size: 16px;
     
 }
-.enviaForm :hover{
+.button :hover{
     color: #ffffff;
     pointer-events: auto;
     background-color: blue;
